@@ -8,20 +8,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            color: #00e5ff;
-        }
-    </style>
+
+    <!--Conectamos el archivo CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
-   
-<h1>HOLA CRAYOLA</h1>
+  <div>
+<h1>HOLA ESTAS ENTRANDO A MI PAGINA </h1>
+  <h2>HELLO CHARMANDER</h2>
+  <h3>HELLO PIKA</h3>
+  <h4>HELLO SQUIRTLE</h4>
+  <h5>HELLO BULBASAUR</h5>
 
-  <h1>hola crayolaaaa</h1>
-  <h1>hola crayolaaaa</h1>
+    <p> Estoy aprendiendo desarrollo web con HTML, CSS y PHP Y A SU VEZ POKEMONES . </p>
+</div>
+    <div>
+        <h2> MI POKEDEX </h2>
 
-  <h1>hola crayolaaaa</h1>
-  <h1>hola crayolaaaa</h1>
-</body>
+        <p>Este es el contenido de mi POKEDEX </p>
+    </div>
+    
+<div class="seccion">
+    <h2>loremmm</h2>
+    <p>lorem ipsum dolor sit amet.</p>
+</div>
+<div class="seccion2">
+    <h2>loremmm</h2>
+    <p>lorem ipsum dolor sit amet.</p>
+</div>
+   </body>
 </html>
