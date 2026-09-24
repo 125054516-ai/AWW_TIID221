@@ -34,9 +34,11 @@
     <h2>loremmm</h2>
     <p>lorem ipsum dolor sit amet.</p>
 </div>
+
 <div class="seccion2">
     <h2>loremmm</h2>
     <p>lorem ipsum dolor sit amet.</p>
 </div>
+
    </body>
 </html>
