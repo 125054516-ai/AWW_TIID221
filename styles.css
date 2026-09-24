@@ -1,0 +1,22 @@
+
+
+        h1{
+            color: #00e5ff;
+             font-sinze: 100px;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+        }
+
+.seccion {
+  background-color: #780e78; 
+      padding: 20px 40px;  
+      margin: 20px; 
+      border: 10px solid #000;      
+}
+.seccion2 {
+  background-color: #706ab3; 
+      padding: 20px 40px; 
+      margin: 20px;    
+      border: 10px solid #000;    
+}
