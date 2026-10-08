@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL NOTICIERO  INFORMATION    |   ACTUALITY   |   TU DIARIO :D </title>    
+    <style>
+
+        header.principal {
+            text-align: center;
+            background-color: var(--primary-color);
+            color: rgb(0, 0, 0);
+            padding: 30px 20px;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        .noticiero {
+            background-color: rgb(157, 27, 27);
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            padding: 12px 20px;
+            text-align: center;
+           
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2.2fr 1fr;
+            gap: 30px;
+        }
+
+
+        .columna-principal, .columna-lateral {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .noticia, .ultimasNoticias, .destacado, .Tiempo, .fecha {
+            background-color: rgb(95, 35, 35);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(129, 27, 27, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s ease;
+        }
+
+        .noticia:hover, .destacado:hover {
+            transform: translateY(-2px);
+        }
+
+        .noticia {
+            border-left: 6px solid var(--accent-color);
+        }
+
+        .noticia img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 15px;
+            object-fit: cover;
+            max-height: 350px;
+        }
+
+        .destacado {
+            background: linear-gradient(to bottom right, #bb4646, #8d4242);
+            border: 1px solid #285084;
+        }
+
+        .destacado img {
+            width: 100%;
+            height: 180px;
+            border-radius: 6px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+
+        .Tiempo, .fecha {
+            text-align: center;
+            background-color: #265079;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header class="principal">
+        <h1>EL NOTICIERO</h1>
+        <p>Información y actualidad de tu diario</p>
+    </header>
+
+    <nav class="noticiero">
+        <h1>EL MUNDO EN TUS MANOS</h1>
+        <h2>Inicio | Mundo |Nacional | Economía | Deportes | Tecnología |Cultura</h2>
+    </nav>
+
+    <div class="container">
+        <div class="columna-principal">
+            <section class="noticia">
+                <h1>UN MEJOR MAÑANA ES POSIBLE</h1>
+                <h2>La información que necesitas para estar al día con el mundo es clave.</h2>
+                <img src="la noticia.jpg" alt="Imagen principal de la noticia">
+            </section>
+
+            <section class="destacado">
+                <img src=" gato,jpg" alt="Imagen destacada de la notica y gato se vuelve inteligente">
+                <h1>Pequeñas acciones, grandes cambios</h1>
+                <h3> BLA BLA BLA BLA BLA BLA </h3>
+            </section>
+        </div>
+
+        <div class="columna-lateral">
+            <section class="ultimasNoticias">
+                <h2>Últimas Noticias</h2>
+        <h4>Innovaciones</h4>
+        <h4>Innovaciones</h4>
+        <h4>Innovaciones</h4>
+        <h4>Innovaciones</h4>  
+
+        </section>
+
+            <section class="Tiempo">
+                <h1>Tiempo</h1>
+                <img src=" descargar.jpg " alt="Imagen del sol">
+                <h2> HACE MUCHO CALOR CHE SOL 
+                    ESTA MUY SOLEADO NO SALGAS 
+
+                </h2>
+                <h3>  40 GRADOS </h3>
+            </section>
+
+            <section class="fecha">
+                <h1> FECHAAA </h1>
+                <h2>lunes, 26 de mayo de 2005</h2>
+                <h3>ño XX | N * 77293</h3>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
