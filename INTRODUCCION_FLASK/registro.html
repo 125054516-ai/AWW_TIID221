@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro </title>
+</head>
+<body>
+    <div>
+        <h1>Registro de usuarios</h1>
+        <form action="/registro" method="POST">
+            <label>nombres(s)</label>
+            <input type="text" name="nombre" required>
+            <label>apellido paterno</label>
+            <input type="text" name="apellido_p" required>
+            <label>apellido materno</label>
+            <input type="text" name="apellido_m" required>
+            <label>correo</label>
+            <input type="email" name="correo" required>
+            <label>contraseña</label>
+            <input type="password" name="password" required>
+            <label>id rol</label>
+            <input type="number" name="id_rol" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
