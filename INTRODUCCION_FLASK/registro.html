@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Registro </title>
+    <title>REGISTRO</title>
 </head>
 <body>
     <div>
         <h1>Registro de usuarios</h1>
         <form action="/registro" method="POST">
-            <label>nombres(s)</label>
-            <input type="text" name="nombre" required>
-            <label>apellido paterno</label>
-            <input type="text" name="apellido_p" required>
-            <label>apellido materno</label>
-            <input type="text" name="apellido_m" required>
-            <label>correo</label>
-            <input type="email" name="correo" required>
-            <label>contraseña</label>
-            <input type="password" name="password" required>
-            <label>id rol</label>
-            <input type="number" name="id_rol" required>
-            <button type="submit">Registrar</button>
+            <label >Nombre(s)</label>
+            <input type="text" name="nombre">
+            <label>Apellido Paterno</label>
+            <input type="text" name="a_paterno">
+            <label>Apellido Materno</label>
+            <input type="text" name="a_materno">
+            <label>Correo</label>
+            <input type="email" name="correo">
+            <label>Contraseña</label>
+            <input type="password" name="password">
+            <label for="id_rol">Rol:</label>
+            <select name="id_rol" id="id_rol">
+                <option value="1">Administrador</option>
+                <option value="2">Usuario</option>
+            </select>
+            <button type="submit">Registrarse</button>
         </form>
+        <p><a href="{{ url_for('login')}}">Regresar</a></p>
     </div>
+    
 </body>
 </html>
